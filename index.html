@@ -10,6 +10,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
 		.tab1 {
             tab-size: 2;
@@ -55,8 +56,10 @@
   border-radius: 4px;
   padding: 5px;
   width: 150px;
-		}
+	    }
+
     </style>
+
 </head>
 <body>
     <div id="loading">
@@ -73,14 +76,14 @@
     </div>
     <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">About</a>
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Labs</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Education</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Current</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Zubair Davids</h1>
         <h2>IT Portfolio / Labs / Projects</h2>
         <div id="menu">
             <a onclick="showabout()">About</a>
             <a onclick="showwork()">Labs & Projects</a>
-            <a onclick="showcontact()">Education</a>
+            <a onclick="showcontact()">Current</a>
         </div>
         <table>
                 <tr>
@@ -96,17 +99,44 @@
         <h1>Labs & Projects</h1>
         
 		<section>
-            <h2>work title</h2>
-			<p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;HTML5</div>
-                <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
-            </div>
-            <button class="btn_one">button 1</button>
-            <button class="btn_two">button 2</button>
+            <div class="row">
+                <div class="column">
+                  <div class="content">
+                    <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                  <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                  <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="content">
+                  <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
+                    <h3>My Work</h3>
+                    <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                  </div>
+                </div>
+              <!-- END GRID -->
+              </div>
+              
+              <div class="content">
+                <img src="/w3images/p3.jpg" alt="Bear" style="width:100%">
+                <h3>Some Other Work</h3>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+                <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+              </div>
         </section>
     </div>
     <div id="about_container" class="container">
@@ -114,89 +144,62 @@
             <h1>About</h1>
             <section>
                <h2 id="center">About Me</h2>
-                <p>Hello, my name is Zubair Davids. I am an aspiring IT Professional who believes in continuous growth and learning. I'm always trying to acquire new skills or improve existing ones. Throughout my life, I have gained hands-on experience in installing, configuring, and maintaining computer hardware, peripherals and devices. I am proficient in troubleshooting common hardware and software problems and have experience with various operating systems including Windows and Linux.
-				</p>
-				
-            <section>
-                <h2 id="center">Skills</h2>
-                <p>
-                    i do eveything ;)
-                </p>
-            </section>
-			
-			<section>
-				  <h2 id="center">Curriculum Vitae Of: </h2>
-					<p id="center">Zubair Aghmad Davids </p>
-					<hr class="dashed-border">
-					
-						<p id="center"><u>PERSONAL INFORMATION</u></p>
-						<pre class="tab4"><b> Full Name:			Zubair Aghmad <br>
- Surname:			Davids <br>
- Gender:			Male <br>
- Identity Number:		0012055064088 <br>
- Date of Birth:			05 December 2000 <br>
- Residential Address:		32 Berzelia Crescent <br>
-				Cape Town – Belhar <br>
- Nationality:			South African <br>
- Languages:			English & Afrikaans </b></pre>
-					<hr class="dashed-border">
- 
-						<p id="center"><u>EDUCATION & TRAINING</u></p>
-<pre><b>Darul Islam High School</b>				- Matriculated 2019
-Subjects:
-▪ English - First Language		▪ Afrikaans – Secondary			▪ Arabic 
-▪ Mathematics				▪ Geography				▪ Business Studies
-▪ Life Orientation			▪ Life Sciences</pre>
+                    <h3 id="center">
+                        Hello, my name is Zubair Davids. I am an aspiring IT Professional who believes in continuous growth and learning. <br>
+                        I'm always trying to acquire new skills and knowledge or improve existing ones and throughout my life, <br>
+                        I've gained hands-on experience in installing, configuring, and maintaining computer hardware, printers, peripherals and devices. <br>
+                        I'm proficient in troubleshooting hardware and software problems and have experience with various operating systems such as: <br>
+                        Windows 10, Windows Server 2016, SliTaz, LinuxMint and Arch Linux.
+                    </h3> 
+            
+            <br>
 
-<pre class="tab4"><b>IT Academy, itacademy.co.za</b>	
-▪ CompTIA A+					- Certified 23 March 2023
- 
-<b>Udemy Short Courses, udemy.com</b>	
-▪ IT Support Technical Skills Helpdesk 		- Completed June 3, 2022
-▪ Help Desk Ticketing System Training 		- Completed March 21, 2023 </pre>
-					<hr class="dashed-border">
-					
-						<p id="center"><u>INTERESTS</u></p>
-<p>Has interests in: <br>
-▪ Building, Repairing and diagnosing old computers.<br>
-▪ Refurbishing old PC hardware.<br>
-▪ Looking up and learning about new Tech.<br>
-▪ Follow Tech channels such as LinusTechTips, UFD Tech & NetworkChuck.</p> 
+                <h2 id="center">About This Website</h2>
+                    <h3 id="center">
+                        This website is where I'll put my Projects, Labs and various things I've done, researched or tried.
+                    </h3>
+
+            <br>
+            <br>
+
+                <h2 id="center">My Education, Courses & Training</h2>
+                    <h3 id="center">Matric (2019) <br>
+                                    CompTIA A+ <br>
+                                    CompTIA Network+ <br>
+                                    UPSKILLIST - Certificate in Cybersecurity <br>
+                                    UDEMY - IT Support Technical Skills Helpdesk
+                    </h3>
+
             </section>
 
         </div>
           <div id="contact_container" class="container">
             <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-            <h1>Education, Training & Courses</h1>
-            <section>
-				<h1 id="center">Education</h1>
-				<h2 id="center">Highschool</h2>
-					<p><b>Attended: </b><a href="https://en.wikipedia.org/wiki/Darul_Islam_Islamic_High_School">Darul Islam Islamic Highschool</a><br>
-					▪ Matriculated 2019</p>
-					<br>
-				<hr class="dashed-border">
-				<h1 id="center">Courses</h1>
-				<h2>Afterschool</h2>
-					<p><b><u>Courses:</u><br>
-					Studied at: </b><a href="https://itacademy.co.za/">IT Academy</a>
-					<img src="Images/ITA.jpg" width="39" height="39">
-					and <a href="https://www.professormesser.com/">Professor Messer</a>
-					<img src="Images/Prof.jpg" width="39" height="39"> with help from YouTube. <br>
-					▪ CompTIA A+: <a href="https://www.credly.com/badges/fefa3430-08ba-46c3-913f-2d9b275c9eaf/public_url">Certified</a><br>
-					▪ CompTIA N+: Studying
-					</p>
-					<hr class="dashed-border">
-					<p><b><u>Short Courses:</u><br>
-					Studied at: </b><a href="https://www.udemy.com/">Udemy</a>
-					<img src="Images/Udemy.png" width="39" height="39"><br>
-					▪ IT Support Technical Skills Helpdesk: By <a href="https://www.udemy.com/course/it-support-beginners-course/learn/lecture/35809490?start=15#overview">Kevin Apolinario</a><br>
-					▪ Help Desk Ticketing System Training: By <a href="https://www.udemy.com/course/help-desk-ticketing-systems-training/learn/lecture/35233936?start=15#overview">Jobskillshare Community</a><br>
-					▪ HTML5 and CSS3 Fundamentals: By <a href="https://www.udemy.com/course/html5-fundamentals-for-beginners/learn/lecture/3518732?start=0#overview">Stone River eLearning</a><br>
-					▪ Active Directory Skills for IT Support Professionals: By <a href="https://www.udemy.com/course/active-directory-skills-for-it-support-professionals/learn/lecture/32003584?start=0#overview">Jobskillshare Community</a>
-					</p>
-					
+            
+            <h1>Current</h1>
 
-                
+                <h2 id="center">Currently busy with these Courses:</h2>
+
+                    <h3 id="center">IBM Skillsbuild Cybersecurity Course <br>
+                        CompTIA Security+ International Exam <br>
+                        Udemy CCNA <br>
+                    </h3>
+            
+            <br>
+            <br>
+
+                <h2 id="center">Trying out or busy with these Projects/Labs:</h2>
+                    <h3 id="center">Domain Registering and Website Hosting (Project404.co.za) <br>
+                                    CSS3 and HTML (zubair-a-davids.github.io/Resume/) <br>
+                                    Adding Custom Domain to GitHub Page <br>
+                                    Add picture/video gallery in blog style to Labs section
+                    </h3>
+
+            <head>
+                <title id="center">Test Page</title>
+            </head> 
+            <section>
+				<h1 id="center"></h1>
             </section>
         </div>
         <div id="footer">

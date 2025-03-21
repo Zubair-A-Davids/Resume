@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
+        h1 {
+            font-size: clamp(1.5em, 4vw, 3em); /* Font size will adjust between 1.5em and 3em based on viewport width */
+        }
 		.tab1 {
             tab-size: 2;
         }
@@ -80,7 +83,7 @@
     <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">Labs</a>
     <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">Current & Contact</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
-        <h1 style="font-size:5vw">Zubair Davids</h1>
+        <h1 style="clamp">Zubair Davids</h1>
         <h2>IT Portfolio / Labs / Projects</h2>
         <div id="menu">
             <a onclick="showabout()">About</a>

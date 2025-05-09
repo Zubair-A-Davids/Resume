@@ -4,7 +4,7 @@
 body {
     padding:0px;
     margin:0px;
-    background:linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.unsplash.com/photo-1530128051436-3ab3663a4683?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") center center;
+    background:linear-gradient(0deg,rgba(1, 0, 0, 0.5),rgba(1, 0, 0, 0.5)),url("https://images.unsplash.com/photo-1530128051436-3ab3663a4683?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80") center center;
     background-size:cover;
     width:100vw;
     height:100vh;
@@ -63,7 +63,7 @@ body {
 #menu a {
     margin:0px 6%;
     font-size:19px;
-    color:#fff;
+    color:#000000;
     text-decoration:underline;
 }
 #middle {
@@ -213,7 +213,8 @@ text-align: center;
     height:90vh;
     padding:5vh 5vw;
     background:rgb(255, 50, 50);
-    color:#fff;
+    color:#000000;
+    font-weight: bold;
     z-index:9;
     position:fixed;
     max-height:100vh;
@@ -255,9 +256,9 @@ text-align: center;
 .btn_one {
     font-size:18px;
     font-family: 'Josefin Sans', sans-serif;
-    color:#fff;
+    color:#000000;
     background:transparent;
-    border:3px solid #fff;
+    border:3px solid #000000;
     padding:8px 40px;
     border-radius:80px;
     font-weight:bold;
@@ -266,7 +267,7 @@ text-align: center;
 }
 .btn_one:hover {
     cursor:pointer;
-    color:rgb(255, 50, 50);
+    color:rgb(0, 0, 0);
     background:#fff;
 }
 .btn_two {
@@ -285,17 +286,18 @@ text-align: center;
     cursor:pointer;
     padding:8px 60px;
 }
+
 .container form input {
     width:46%;
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid rgba(0, 0, 0, 0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#000000;
     font-weight:bold;
 }
 .container form textarea {
@@ -303,14 +305,14 @@ text-align: center;
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:3px solid rgba(255,255,255,0.5);
+    border-bottom:3px solid rgba(0, 0, 0, 0.5);
     padding:8px 10px;
     font-family: 'Poppins', sans-serif;
     font-size:18px;
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#000000;
     font-weight:bold;
 }
 .container form input:focus {
@@ -326,10 +328,10 @@ text-align: center;
      margin: auto;
      margin-top: 1%;
      margin-bottom: 1%;
-     border: 3px dashed #ADD8E6;
+     border: 3px dashed #000000;
 }
 ::placeholder {
-    color:#fff;
+    color:#000000;
 }
 #footer {
     color:#fff;
